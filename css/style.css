@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	background-color: #ddd;
+}
+
+header{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.servChild{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.iconDiv{
+	border-radius: 50%;
+	border: 2px solid green;
+	padding: 20px;
+	margin-right: 10px;
+	width: 70px;
+	height: 70px;
+	display: flex; /* Added */
+  justify-content: center; /* Added */
+}
+
+.serHeadingDiv{
+	margin-bottom: -5px;
+	font-weight: bold;
+}
+
+.servTextDiv p{
+	display: block;
+	 text-align: left;
+}
+
+.proCard{
+	transition: transform 0.3s ease-in-out;
+}
+
+.proCard:hover{
+	transform: scale(1.1);
+}
+
+.whyChsDiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+
+.socialLink{
+	text-decoration: none;
+	color: black;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* Hide the button by default */
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+
+
+
+
